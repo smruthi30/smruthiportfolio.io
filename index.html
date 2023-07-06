@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>personal portfolio website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/39477e83ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logome1-removebg-preview1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#miniproject">Mini project</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!--<p>Graphic designer</p>-->
+                <h1>Hi,I'm <span>Smruthi</span><br>from India</h1>
+            </div>
+        </div>
+    </div>
+<!-- -------about---------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user1.jpg">
+                </div>
+                   <div class="about-col-2">
+                    <h1 class ="sub-title" >About Me</h1>
+                    <p>  I'm a student completing [B.Tech(Information and communication technology)]
+                         degree in 2024.  I am ambitious and driven towards my goals.
+                         I thrive on challenge and constantly set goals for myself, so I have something to
+                         strive towards. I am not comfortable with settling, and I am always looking for
+                         an opportunity to do better and achieve greatness.,I'm a data science and programming 
+                         enthusiast and I also have immense intrest in design as well.</p>
+                     
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+                        <p class="tab-links"onclick="opentab('clubs')">clubs</p>
+                    </div>
+                    <div class="tab-contents active-tab"id ="Skills">
+                        <ul>
+                            <li><span>Web development</span><br>Web app development </li>
+                            <li><span>Machine learning</span><br>using machine learning models for real life problems </li>
+                            <li><span>Graphic design</span><br>Designing posters,logos,,product design and mockups </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="Education">
+                        <ul>
+                            <li><span>2020-current</span><br>B.Tech in Information and communication technology<br>SASTRA university,Thanjavur </li>
+                            <li><span>2023</span><br>Graphic design from A and M educational institute </li>
+                            <li><span>2020</span><br> Grade 12 from Achariya Bala Siksha Mandir <br> Pondicherry</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="clubs">
+                        <ul>
+                            <li><span>300dpi</span><br>Graphic design team of college</li>
+                            <li><span>ICTAS</span><br>Team of our department </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------  miniproject ------>
+<div id="miniproject">
+    <div class="container">
+        <h1 class="sub-title">MiniProject</h1>
+        <div class="miniproject-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Heart disease prediction  </h2>
+                <p> using feature selection and Machine Learning algorithms Lorem ipsum 
+                    dolor sit, amet consectetur adipisicing elit. 
+                    Blanditiis laboriosam aperiam eligendi eius. 
+                    Iste, quibusdam porro nihil accusantium magnam repellendus 
+                    ducimus! Dolorem natus, facere hic voluptatem quis quam nisi eos.</p>
+                    <a href="https://smruthi30-mlapp-heartt2-kder44.streamlit.app/">Link for heart disease prediction web app</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!------------portfolio--------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My graphic design works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/logomockup-01.jpg" >
+                <div class="layer">
+                    <h3>Logo design</h3>
+                    <p>This is a logo design mockup</p>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/notebook mockup fin.jpg" >
+                <div class="layer">
+                    <h3>Notebook</h3>
+                    <p>Notebook cover design mockup</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/penpackage2-01.png" >
+                <div class="layer">
+                    <h3>Product packaging 1</h3>
+                    <p> pen box product packaging design </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/penboxmockup.jpg" >
+                <div class="layer">
+                    <h3>pen</h3>
+                    <p>This is a pack of pen box design mockup</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/exampad-03.png" >
+                <div class="layer">
+                    <h3>Product packaging 2 </h3>
+                    <p>This is an exam pad cover design</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/exampadmockup.jpg" >
+                <div class="layer">
+                    <h3>Exam pad</h3>
+                    <p>This is an exam pad cover design mockup</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/geometry box mockup.jpg" >
+                <div class="layer">
+                    <h3>Geometry Box</h3>
+                    <p>This is a geometry box product design mockup</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/visitingcard mockup.jpg" >
+                <div class="layer">
+                    <h3>Visting card</h3>
+                    <p>This is visiting card mockup</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------contact------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-sharp fa-solid fa-envelope"></i>smruthis3012@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7904667579</p>
+                <a href="images/resume(22-6-23).pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email"name="email"placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit"class="btn btn2">Submit</button>
+                 </form>
+                 <span id="msg"></span>
+             </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<script>
+     var tablinks=document.getElementsByClassName("tab-links");
+     var tabcontents=document.getElementsByClassName("tab-contents");
+     function opentab(tabname){
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+     }
+
+
+
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxVNmP092q7OqWmFHtKfldN6QZVnh_Du1RhEfxJ0-VGi9oSqtq-nneMir2JCbycGwt5/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+            
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+
+
+</body>
+</html>
